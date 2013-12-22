@@ -16,3 +16,10 @@ You can incorporate the file in your theme by dropping it into a css directory a
 wp_enqueue_style( 'base-style', get_template_directory_uri() . '/css/wp.css');
 wp_enqueue_style( 'main-style', get_stylesheet_uri() );
 ```
+
+## Important Notes
+This is all totally untested in this form
+
+##Todo
+
+* Test.
