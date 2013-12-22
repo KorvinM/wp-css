@@ -2,7 +2,8 @@ WP css reset
 ============
 
 An attempt to put together a base stylesheet for WordPress themes.
-Opinionated css reset rules and defaults for WordPress classes
+Includes css reset rules and defaults for WordPress classes.
+Opinionated but not too aggressive, seeking to avoid any need to reset the reset, which always feels wrong.
 See inline comments for more details.
  
 ## Incorporates and adapts:
@@ -19,8 +20,11 @@ wp_enqueue_style( 'main-style', get_stylesheet_uri() );
 ```
 
 ## Important Notes
-This is all totally untested in this form
+html5 display definition for the deprecated element 'hgroup' is not supported here.
 
 ##Todo
 
-* Test.
+## Changelog
+
+* removed conflicting styles for 'q'.
+* tested using wptest.io
