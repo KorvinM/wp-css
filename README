@@ -3,6 +3,7 @@ WP css reset
 
 An attempt to put together a base stylesheet for WordPress themes.
 Opinionated css reset rules and defaults for WordPress classes
+See inline comments for more details.
  
 ## Incorporates and adapts:
  * 	normalize.css v2.1.3 | MIT License | git.io/normalize
