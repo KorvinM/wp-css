@@ -222,10 +222,6 @@ samp {
 pre {
     white-space: pre-wrap;
 }
-/* Set consistent quote types */
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
 /* Address inconsistent and variable font size in all browsers */
 small {
     font-size: 80%;
@@ -248,11 +244,13 @@ caption, th, td {
         font-weight: normal;
         text-align: left;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after{
         content: "";
 }
-
+/* Set consistent quote types */
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
 /* Embedded content
  * ---------------- */
 
@@ -662,6 +660,10 @@ img.wp-smiley {
 .site-main .gallery dd {
         margin: 0;
 }
+
+/* Comments
+ * --------*/
+
 
 /* Widgets
  * -------*/
