@@ -150,7 +150,7 @@ p {
 }
 ul, ol {
 	margin: 0;
-	list-style: inside;
+	list-style-position: inside;
 }
 ul {
 	list-style: disc;
