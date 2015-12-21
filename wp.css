@@ -14,7 +14,6 @@
 /* HTML5
  * -----*/
 
-/* removed deprecated element hgroup */
 article,
 aside,
 details,
@@ -109,13 +108,13 @@ body {
  * ----- */
 
 /* Remove the gray background color from active links in IE 10 *
- * add opinionated colors */
+ */
 a {
     background: transparent;
-    color: midnightblue;
+    color: royalblue;
 }
 a:visited {
-        color: royalblue;
+        color: midnightblue;
 }
 a:hover,
 a:focus,
@@ -135,18 +134,11 @@ a:hover {
 /* Typography
  * ---------- */
 
-/* Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome
- */
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
 }
 p {
-	margin-bottom: 1.5em;
+	margin-bottom: 1.4em;
 }
 ul, ol {
 	margin: 0;
